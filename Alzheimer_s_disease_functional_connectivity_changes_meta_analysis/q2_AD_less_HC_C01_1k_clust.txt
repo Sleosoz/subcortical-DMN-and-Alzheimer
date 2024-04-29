@@ -1,0 +1,55 @@
+Mask:
+Reference Space               = MNI152
+Dimensions                    = 91x109x91
+Number of within-brain voxels = 228483
+Mask Size                     = More Conservative (Smaller)
+
+Foci:
+Coordinate System             = MNI
+File of foci coordinates      = q2_AD_less_HC.txt
+Number of foci                = 296
+Number of experiments         = 40
+Total number of subjects      = 927
+
+ALE - Random Effects, Turkeltaub Non-Additive (HBM, 2012):
+File of ALE voxels            = q2_AD_less_HC_ALE.nii
+FWHM minimum value            = 8.746152498730366
+FWHM median value             = 9.241242951547518
+FWHM maximum value            = 10.002568195473065
+Minimum ALE score             = 6.8107155E-31
+Maximum ALE score             = 0.023034725
+
+P Values: Eickhoff (HBM, 2009)
+File of P values              = q2_AD_less_HC_P.nii
+Minimum P value               = 8.412384E-7
+
+Thresholding:
+Threshold Method              = Cluster-level Inference
+Thresholding Value            = 0.01
+Thresholding Permutations     = 1000
+Cluster-Forming Method        = Uncorrected P value
+Cluster-Forming Value         = 0.001
+Volume > Threshold            = 1560 mm^3
+Chosen min. cluster size      = 1024 mm^3
+Thresholded ALE image         = q2_AD_less_HC_C01_1k_ALE.nii
+
+Cluster Analysis:
+ #1: 1560 mm^3 from (-30,-14,-32) to (-16,-2,-16) centered at (-23.8,-7.8,-23.9) with 2 peaks
+     with a max value of 0.023 ALE, 8.412384E-7 P, 4.79 Z at (-26,-8,-26) 
+   Labels: (Gray Matter only)
+     Hemisphere: 100% Left Cerebrum
+     Lobe: 100% Limbic Lobe
+     Gyrus: 83.3% Parahippocampal Gyrus, 16.7% Uncus
+     Cell Type: 80.2% Amygdala, 13.5% Brodmann area 34, 4% Hippocampus, 1.6% Brodmann area 28
+
+
+Experiment Table:
+[ 0 0 0 0 0 0 1 1 0 0 0 0 0 5 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 ]
+
+Contributors to cluster #1
+1 foci from //Yao et al., 2013: decreased FC of the left amygdala 
+1 foci from //Yao et al., 2013: decreased FC of the right amygdala 
+5 foci from //Grajski et al., 2019: Left hypoconnectivity  
+1 foci from //Zhou et al., 2010: differences in functional connectivity of the DMN AD < HC 
+1 foci from //Qiao et al., 2018: decreased FC in AD vs. NCs in all ICs 
+1 foci from //Ortner et al., 2016: reduced FC to the amygdala in AD 
