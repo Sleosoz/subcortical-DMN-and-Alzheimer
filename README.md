@@ -10,8 +10,5 @@ The paper explores the regions that conform the subcortical default mode network
 ## Data Access
 NIfTI files used in the study are available at the [Open Science Framework (OSF)](https://osf.io/2d8wv/) repository. 
 
-## Supplementary Materials
-Additional resources related to the paper, including supplementary materials, figures, or scripts, can be found directly in this GitHub repository.
-
 ## Licensing
 This repository is licensed under the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/), which allows for unrestricted reuse, distribution, and reproduction, provided the original work is properly cited.
