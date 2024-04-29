@@ -2,7 +2,7 @@
 
 This repository accompanies the publication:
 
-Seoane, S., van den Heuvel, M., Acebes, Á., & Janssen, N. (2024). The subcortical default mode network and Alzheimer’s disease: a systematic review and meta-analysis. Brain Communications, fcae128.
+Seoane, S., van den Heuvel, M., Acebes, A., & Janssen, N. (2024). The subcortical default mode network and Alzheimer’s disease: a systematic review and meta-analysis. Brain Communications, fcae128.
 
 ## Overview
 The paper explores the regions that conform the subcortical default mode network and the involvement of the subcortical default mode network in Alzheimer's disease, through systematic review, meta-analysis, and network analyses.
